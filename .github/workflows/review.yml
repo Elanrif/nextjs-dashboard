@@ -8,6 +8,12 @@ on:
     pull_request:
         branches:
             - main
+        types:
+            - opened
+            - reopened
+            - synchronize
+            - labeled
+            - unlabeled    
 jobs:
     review:
         runs-on: ubuntu-latest
