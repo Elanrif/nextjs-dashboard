@@ -1,5 +1,5 @@
 name: Review code
-run-name: ${{ github.actor }} is reviewing code 🚀
+run-name: "${{ github.ref_name }} reviewing code 🚀"
 on:
     push:
         branches:
